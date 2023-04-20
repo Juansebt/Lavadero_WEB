@@ -1,0 +1,85 @@
+{% extends "index.html" %}
+
+{% block encabezado %}
+{% include "encabezado.html" %}
+{% endblock %}
+
+{% block menu %}
+{% include "menu.html" %}
+{% endblock %}
+
+{% block contenido %}
+<div class="container">
+    <h3 class="fw-bold text-center" style="margin: 20px;">Nuestros Servicios</h3>
+    <p style="margin: 10px;">Los servicions que ofrecemos a nuestros clientes son los siguientes:</p>
+    <div class="card-group">
+        <div class="card border" style="width: 250px; margin: 10px;">
+            <img class="card-img-top"
+                src="https://cuponassets.cuponatic-latam.com/backendCo/uploads/imagenes_descuentos/183656/b83ad69c044a770f9d448603ba3bc168e3c371af.S.jpg"
+                alt="Card image cap">
+            <div class="card-body text-center">
+                <h5 class="card-title">Lavada completa del carro</h5>
+                <p class="card-text">Lavado general incuyendo motor, polichada, aspirada, etc...</p>
+                <p class="card-text">Valor: $60.000</p>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-danger">Agendar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card border" style="width: 250px; margin: 10px;">
+            <img class="card-img-top"
+                src="https://cuponassets.cuponatic-latam.com/backendCo/uploads/imagenes_descuentos/183656/b83ad69c044a770f9d448603ba3bc168e3c371af.S.jpg"
+                alt="Card image cap">
+            <div class="card-body text-center">
+                <h5 class="card-title">Lavada completa del carro</h5>
+                <p class="card-text">Lavado general incuyendo motor, polichada, aspirada, etc...</p>
+                <p class="card-text">Valor: $60.000</p>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-danger">Agendar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card border" style="width: 250px; margin: 10px;">
+            <img class="card-img-top"
+                src="https://cuponassets.cuponatic-latam.com/backendCo/uploads/imagenes_descuentos/183656/b83ad69c044a770f9d448603ba3bc168e3c371af.S.jpg"
+                alt="Card image cap">
+            <div class="card-body text-center">
+                <h5 class="card-title">Lavada completa del carro</h5>
+                <p class="card-text">Lavado general incuyendo motor, polichada, aspirada, etc...</p>
+                <p class="card-text">Valor: $60.000</p>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-danger">Agendar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <table class="table table-bordered table-hover w-75" align="center">
+            <thead class="text-center fw-bold bg-warning">
+                <tr>
+                    <th>Servico</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lavada completa de carro con polichada</td>
+                    <td class="text-end">$ 60.000</td>
+                </tr>
+                <tr>
+                    <td>Lavada completa de carro sin polichada</td>
+                    <td class="text-end">$ 40.000</td>
+                </tr>
+                <tr>
+                    <td>Lavada general de carro no incluye motor</td>
+                    <td class="text-end">$ 30.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block piePagina %}
+{% include "piePagina.html" %}
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "index.html" %}
+
+{% block encabezado %}
+{% include "encabezado.html" %}
+{% endblock %}
+
+{% block menu %}
+{% include "menu.html" %}
+{% endblock %}
+
+{% block contenido %}
+<div class="container" style="justify-content: center; justify-items: center; margin-top: 5vh;">
+    <div class="card">
+        <div class="card-title" style="margin: 20px;">
+            <h3 class="fw-bold text-center" >Nuestra Misión</h3>
+        </div>
+        <div class="card-body text-center" style="margin: 10px;">
+            <p>Proveer servicios que contribuyan con las necesidades propias de los usuarios de personas que tienen carros.</p>    
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block piePagina %}
+{% include "piePagina.html" %}
+{% endblock %}
